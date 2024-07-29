@@ -1,0 +1,25 @@
+15-Puzzle Solver Using A* Search with Heuristics
+
+Overview
+This project implements an A* Search algorithm to solve the 15-Puzzle game using two types of heuristics:
+
+Number of Misplaced Tiles
+Manhattan Distance
+The 15-Puzzle is a sliding puzzle consisting of a 4x4 grid with numbered tiles from 1 to 15 and one empty space represented by 0. The goal is to rearrange the tiles to achieve a sequential order from 1 to 15 with the empty space at the end.
+
+Features
+Input: 
+  Initial board configuration in the form of a sequence of numbers (0 indicates the empty space).
+Output:
+  Moves: Sequence of moves to solve the puzzle.
+  Number of Nodes Expanded: Total number of nodes expanded during the search.
+  Time Taken: Time taken to find the solution.
+  Memory Used: Memory used during the execution.
+
+Example
+Input: 1 0 2 4 5 7 3 8 9 6 11 12 13 10 14 15
+Output:
+  Moves: RDLDDRR
+  Number of Nodes Expanded: 261
+  Time Taken: 0.152 seconds
+  Memory Used: 512 KB
