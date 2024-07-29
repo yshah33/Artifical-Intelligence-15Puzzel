@@ -1,8 +1,3 @@
-#CS 411 - Assignment 5 Solution
-#Astar Search on 15 Puzzle
-#Aniket Anil Wagde
-#2022 Fall
-
 import random
 import math
 import time
