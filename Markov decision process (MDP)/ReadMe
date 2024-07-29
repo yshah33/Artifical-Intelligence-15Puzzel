@@ -3,6 +3,7 @@ Grid World MDP Solver with Value Iteration
 Overview
 This script implements the Value Iteration algorithm to solve a Gridworld problem. The Gridworld consists of a grid where the agent can move in one of four directions: North, South, East, and West. The problem includes walls, terminal states, and other cells where the agent can move. Transition probabilities, rewards, and other parameters are defined in an input file. The script computes the optimal policy for the agent and displays the final policy after convergence.
 Features
+
 MDP Definition: Defines the MDP components including the transition model (T), reward function (R), discount factor (gamma), and convergence threshold (epsilon).
 Value Iteration: Implements the value iteration algorithm to compute state values and derive the optimal policy.
 
@@ -37,5 +38,21 @@ discount_rate : 1
 
 # Convergence threshold (epsilon)
 epsilon : 0.001
+
+-------------- Command to run the project --------------
+rm -f MDP
+g++ -g search.cpp -o MDP
+./MDP
+
+> (Enter file path)
+
+--------------------- Example ---------------------
+
+----- Input -----
+> output_book.txt
+
+----- Output -----
+output will display to the output.txt file
+
 
 
