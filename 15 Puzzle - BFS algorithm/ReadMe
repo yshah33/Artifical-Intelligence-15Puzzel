@@ -1,0 +1,44 @@
+15-Puzzle Solver Using Breadth-First Search
+Overview
+This project implements a Breadth-First Search (BFS) algorithm to solve the 15-Puzzle game. The 15-Puzzle is a sliding puzzle consisting of a 4x4 grid with numbered tiles from 1 to 15 and one empty space represented by 0. The goal is to rearrange the tiles to achieve a sequential order from 1 to 15 with the empty space at the end.
+
+Features
+Input: Initial board configuration in the form of a sequence of numbers (0 indicates the empty space).
+Output:
+Moves: Sequence of moves to solve the puzzle.
+Number of Nodes Expanded: Total number of nodes expanded during the search.
+Time Taken: Time taken to find the solution.
+Memory Used: Memory used during the execution.
+Example
+Input
+Copy code
+1 0 2 4 5 7 3 8 9 6 11 12 13 10 14 15
+Output
+yaml
+Copy code
+Moves: RDLDDRR
+Number of Nodes Expanded: 361
+Time Taken: 0.238 seconds
+Memory Used: 704 KB
+How to Run
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/15-puzzle-solver.git
+cd 15-puzzle-solver
+Install Dependencies:
+Ensure you have Python installed. You can create a virtual environment and install required packages if any (e.g., numpy for array handling):
+
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+Run the Solver:
+
+arduino
+Copy code
+python solver.py "1 0 2 4 5 7 3 8 9 6 11 12 13 10 14 15"
+View the Results:
+The output will display the sequence of moves, number of nodes expanded, time taken, and memory used.
